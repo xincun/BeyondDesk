@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>{9ad90acf-3a65-4ad4-8af7-376832ae4b63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Unify">
+      <UniqueIdentifier>{18faee94-75fe-44c1-a1cf-2b116a517efe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Skin">
+      <UniqueIdentifier>{7e24b9ca-7f2b-487b-b3ad-889d615447fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AVEntry">
+      <UniqueIdentifier>{8290a628-e175-4a8e-9e85-2c0240cabb40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Reg">
+      <UniqueIdentifier>{f472374a-8b1f-424d-9db3-e8369998f12f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MainFrame.cpp" />
+    <ClCompile Include="StdAfx.cpp" />
+    <ClCompile Include="UIMainProxy.cpp" />
+    <ClCompile Include="AboutWnd.cpp" />
+    <ClCompile Include="Common\DLLInvoke.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalDefine.cpp" />
+    <ClCompile Include="Unify\PlugManager.cpp">
+      <Filter>Unify</Filter>
+    </ClCompile>
+    <ClCompile Include="Unify\Unify.cpp">
+      <Filter>Unify</Filter>
+    </ClCompile>
+    <ClCompile Include="Unify\AppPath.cpp">
+      <Filter>Unify</Filter>
+    </ClCompile>
+    <ClCompile Include="ConfigWnd.cpp" />
+    <ClCompile Include="Skin\PalletDialog.cpp">
+      <Filter>Skin</Filter>
+    </ClCompile>
+    <ClCompile Include="Skin\SkinPickerDialog.cpp">
+      <Filter>Skin</Filter>
+    </ClCompile>
+    <ClCompile Include="Skin\SkinPickerPictureItem.cpp">
+      <Filter>Skin</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\DlgTipExit.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\InputBox.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="UIPlugProxy.cpp" />
+    <ClCompile Include="UIToolboxItem.cpp" />
+    <ClCompile Include="Common\AVCapWrapper.cpp">
+      <Filter>AVEntry</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\CamRecPreviewWnd.cpp">
+      <Filter>AVEntry</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\DlgTipExitCamRec.cpp">
+      <Filter>AVEntry</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\VolWnd.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Unify\Status.cpp">
+      <Filter>Unify</Filter>
+    </ClCompile>
+    <ClCompile Include="TrayClockProxy.cpp" />
+    <ClCompile Include="UITrayProxy.cpp" />
+    <ClCompile Include="UIHotKeyProxy.cpp" />
+    <ClCompile Include="Unify\NetManager.cpp">
+      <Filter>Unify</Filter>
+    </ClCompile>
+    <ClCompile Include="Reg\Reg.cpp">
+      <Filter>Reg</Filter>
+    </ClCompile>
+    <ClCompile Include="Reg\RegWnd.cpp">
+      <Filter>Reg</Filter>
+    </ClCompile>
+    <ClCompile Include="Reg\WaitWnd.cpp">
+      <Filter>Reg</Filter>
+    </ClCompile>
+    <ClCompile Include="Unify\Frame.cpp">
+      <Filter>Unify</Filter>
+    </ClCompile>
+    <ClCompile Include="HkEditWnd.cpp" />
+    <ClCompile Include="CodeTest.cpp" />
+    <ClCompile Include="BeyondDesk.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MainFrame.h" />
+    <ClInclude Include="StdAfx.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="GlobalDefine.h" />
+    <ClInclude Include="UIMainProxy.h" />
+    <ClInclude Include="AboutWnd.h" />
+    <ClInclude Include="Common\DLLInvoke.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Unify\PlugDefine.h">
+      <Filter>Unify</Filter>
+    </ClInclude>
+    <ClInclude Include="Unify\PlugManager.h">
+      <Filter>Unify</Filter>
+    </ClInclude>
+    <ClInclude Include="Unify\Unify.h">
+      <Filter>Unify</Filter>
+    </ClInclude>
+    <ClInclude Include="Unify\AppPath.h">
+      <Filter>Unify</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfigWnd.h" />
+    <ClInclude Include="Skin\PalletDialog.h">
+      <Filter>Skin</Filter>
+    </ClInclude>
+    <ClInclude Include="Skin\SkinPickerDialog.h">
+      <Filter>Skin</Filter>
+    </ClInclude>
+    <ClInclude Include="Skin\SkinPickerPictureItem.h">
+      <Filter>Skin</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\DlgTipExit.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\InputBox.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Unify\UnifyIntf.h">
+      <Filter>Unify</Filter>
+    </ClInclude>
+    <ClInclude Include="UIPlugProxy.h" />
+    <ClInclude Include="UIToolboxItem.h" />
+    <ClInclude Include="EventDefine.h" />
+    <ClInclude Include="Common\AVCapWrapper.h">
+      <Filter>AVEntry</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\CamRecPreviewWnd.h">
+      <Filter>AVEntry</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\DlgTipExitCamRec.h">
+      <Filter>AVEntry</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\VolWnd.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Unify\Status.h">
+      <Filter>Unify</Filter>
+    </ClInclude>
+    <ClInclude Include="TrayClockProxy.h" />
+    <ClInclude Include="UITrayProxy.h" />
+    <ClInclude Include="UIHotKeyProxy.h" />
+    <ClInclude Include="Unify\NetManager.h">
+      <Filter>Unify</Filter>
+    </ClInclude>
+    <ClInclude Include="Reg\Reg.h">
+      <Filter>Reg</Filter>
+    </ClInclude>
+    <ClInclude Include="Reg\RegWnd.h">
+      <Filter>Reg</Filter>
+    </ClInclude>
+    <ClInclude Include="Reg\WaitWnd.h">
+      <Filter>Reg</Filter>
+    </ClInclude>
+    <ClInclude Include="Unify\Frame.h">
+      <Filter>Unify</Filter>
+    </ClInclude>
+    <ClInclude Include="HkEditWnd.h" />
+    <ClInclude Include="CodeTest.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="bin\Debug\Res\AppIcon.ico" />
+    <Image Include="bin\Debug\Res\App32.ico" />
+    <Image Include="bin\Debug\Res2\App32.ico" />
+    <Image Include="..\common\redist\BeyondDesk\Debug\Res\icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="BeyondDesk.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Res.zip" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="bin\Debug\TrayClockFormat.txt" />
+  </ItemGroup>
+</Project>

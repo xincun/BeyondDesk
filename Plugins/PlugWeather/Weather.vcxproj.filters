@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="DllDefine">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Export">
+      <UniqueIdentifier>{4aaa8407-6a8d-4527-a3f6-10627dba95c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Impl">
+      <UniqueIdentifier>{5257703d-df5b-487e-a565-38f93fda5bca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pub">
+      <UniqueIdentifier>{0c8b62fc-3838-4673-8045-d0c377fa1a7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pub\Json">
+      <UniqueIdentifier>{a1597578-392f-4f80-8d60-6f7299cdf671}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>DllDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>DllDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="WeatherExport.h">
+      <Filter>Export</Filter>
+    </ClInclude>
+    <ClInclude Include="WeatherDefine.h">
+      <Filter>DllDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\DeskWnd.h">
+      <Filter>Pub</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\DeskWndCfg.h">
+      <Filter>Pub</Filter>
+    </ClInclude>
+    <ClInclude Include="DeskWeather.hpp">
+      <Filter>Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfigWnd.h">
+      <Filter>Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="WeatherGetter.h">
+      <Filter>Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="WeatherParser.h">
+      <Filter>Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaDetail.h">
+      <Filter>Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="UIMain.h">
+      <Filter>Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\[Common]\jsoncpp\include\json\json.h">
+      <Filter>Pub\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\[Common]\jsoncpp\include\json\reader.h">
+      <Filter>Pub\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\[Common]\jsoncpp\include\json\value.h">
+      <Filter>Pub\Json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\[Common]\jsoncpp\include\json\writer.h">
+      <Filter>Pub\Json</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>DllDefine</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>DllDefine</Filter>
+    </ClCompile>
+    <ClCompile Include="WeatherExport.cpp">
+      <Filter>Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\DeskWnd.cpp">
+      <Filter>Pub</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\DeskWndCfg.cpp">
+      <Filter>Pub</Filter>
+    </ClCompile>
+    <ClCompile Include="ConfigWnd.cpp">
+      <Filter>Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaDetaill.cpp">
+      <Filter>Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="UIMainPlug.cpp">
+      <Filter>Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="UIMain.cpp">
+      <Filter>Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\[Common]\jsoncpp\src\lib_json\json_reader.cpp">
+      <Filter>Pub\Json</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\[Common]\jsoncpp\src\lib_json\json_value.cpp">
+      <Filter>Pub\Json</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\[Common]\jsoncpp\src\lib_json\json_writer.cpp">
+      <Filter>Pub\Json</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

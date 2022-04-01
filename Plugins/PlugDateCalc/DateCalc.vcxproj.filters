@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="DllDefine">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Export">
+      <UniqueIdentifier>{4aaa8407-6a8d-4527-a3f6-10627dba95c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Impl">
+      <UniqueIdentifier>{5257703d-df5b-487e-a565-38f93fda5bca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pub">
+      <UniqueIdentifier>{0c8b62fc-3838-4673-8045-d0c377fa1a7f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>DllDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>DllDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="DateCalcDefine.h">
+      <Filter>DllDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="DateCalcWnd.h">
+      <Filter>Impl</Filter>
+    </ClInclude>
+    <ClInclude Include="DateCalcIntf.h">
+      <Filter>Export</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>DllDefine</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>DllDefine</Filter>
+    </ClCompile>
+    <ClCompile Include="DateCalcWnd.cpp">
+      <Filter>Impl</Filter>
+    </ClCompile>
+    <ClCompile Include="DateCalcImpl.cpp">
+      <Filter>Impl</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
