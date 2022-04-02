@@ -6,6 +6,7 @@ Desktop gadget collections / clock calendar yellow calendar memo weather time tr
 详情参见我的CSND博客：https://blog.csdn.net/startl
 
 技术特点：
+
 主要功能皆开放源码，C++开发，支持winxp及以上的所有windows平台，也可以wine兼容的方式运行在linux桌面上。
 
 UI采用了二次开发的Duilib，架构采用接口方式的插件架构，所有子功能皆为插件，可以动态删减。
