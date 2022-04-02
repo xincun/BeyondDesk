@@ -3,7 +3,7 @@ Desktop gadget collections / clock calendar yellow calendar memo weather time tr
 
 桌面小工具集合/时钟日历黄历便签相框天气时间/托盘时钟
 
-详情参见我的CSND博客：https://blog.csdn.net/startl
+详情参见我的CSND博客：https://blog.csdn.net/startl/article/details/123893891
 
 技术特点：
 
